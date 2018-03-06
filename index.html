@@ -2,9 +2,287 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Frostbite</title>
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,700,800" rel="stylesheet">
 </head>
 <body>
+
+	<header class="header">
+		<div class="full-nav" id="full-nav">
+			<div class="full-nav__header">
+				<button class="close" id="close"></button>
+			</div>
+			<div class="full-nav__body">
+				Full navigation content her
+			</div>
+		</div>
+
+		<nav class="header__navigation">
+			<a href="" class="header__logo">
+				<img src="assets/image/logo.png" alt="Logo Image">
+			</a>
+			<a href="" class="header__search"></a>
+			<button class="header__toggler" id="open">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</nav>
+
+		<div class="header__banner">
+			<button class="header__button button button-red">Inside our studio</button>
+			<h1 class="header__title">Frostbite</h1>
+		</div>
+	</header>
+
+	<main>
+		<section class="about">
+			<div class="about__header">
+				<img src="assets/image/waves.png" alt="Wave icon">
+				<h3 class="about__title">A team of creatives<br>based out of California</h3>
+			</div>
+
+			<div class="about__body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 order-md-2">
+							<img src="assets/image/about-1.png" alt="About us image">
+						</div>
+						<div class="col-md-6 order-md-1">
+							<div class="about__item">
+								<h4 class="about__item-title">Who we are</h4>
+								<p class="about__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi eum officia possimus praesentium tempora, ullam voluptas. Fugit natus, nihil?</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<img src="assets/image/about-2.png" alt="About us image">
+						</div>
+						<div class="col-md-6">
+							<div class="about__item">
+								<h4 class="about__item-title">What we do</h4>
+								<p class="about__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi eum officia possimus praesentium tempora, ullam voluptas. Fugit natus, nihil?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="about__footer">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-5">
+							<p class="about__footer-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad aspernatur, consequatur deleniti ex iure laboriosam molestias natus nisi obcaecati pariatur quae quaerat quia rem repellat repudiandae, suscipit tempore.</p>
+						</div>
+						<div class="col-md-5">
+							<p class="about__footer-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad aspernatur, consequatur deleniti ex iure laboriosam molestias natus nisi obcaecati pariatur quae quaerat quia rem repellat repudiandae, suscipit tempore.</p>
+						</div>
+					</div>
+				</div>
+				<div class="about__button">
+					<button class="button button-red">Journal</button>
+					<button class="button button-default">Our story</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects">
+			<div class="projects__body">
+				<h3 class="projects__title">Latest projects</h3>
+				<p class="projects__description">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
+			</div>
+			<div class="projects__footer">
+				<button class="button button-red">View projects</button>
+				<button class="button button-default">Contact</button>
+			</div>
+		</section>
+
+		<section class="journal">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 order-md-2">
+						<div class="journal__image">
+							<img src="assets/image/journal.png" alt="Journal block image">
+						</div>
+					</div>
+					<div class="col-md-6 order-md-1">
+						<div class="journal__body">
+							<img src="assets/image/waves.png" alt="Wave image">
+							<h3 class="journal__title">Our journal</h3>
+							<p class="journal__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, aperiam asperiores consectetur consequuntur distinctio doloremque earum impedit iusto natus, nesciunt nobis nostrum odit optio possimus quaerat repellat similique veniam!</p>
+							<button class="button button-red">Read more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="team">
+			<div class="team__header">
+				<img src="assets/image/waves.png" alt="Wave image">
+				<h3 class="team__title">Our team</h3>
+			</div>
+
+			<div class="team__body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-1.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Adam Smith</p>
+									<p class="teammate__position">Ceo, brand director</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-2.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Eric Johnson</p>
+									<p class="teammate__position">Ceo, brand director</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-3.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Cecelia Hines</p>
+									<p class="teammate__position">Photographer</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-4.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Ben Ferguson</p>
+									<p class="teammate__position">Brand, UI designer</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-5.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Judy Davis</p>
+									<p class="teammate__position">UX, UI designer</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="teammate">
+								<div class="teammate__header">
+									<img src="assets/image/teammate-6.png" alt="Adam Smith Photo">
+								</div>
+								<div class="teammate__body">
+									<p class="teammate__name">Thomas Peterson</p>
+									<p class="teammate__position">Project manager</p>
+									<div class="separate"></div>
+									<p class="teammate__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deleniti distinctio ducimus numquam officiis quibusdam quod saepe, tempore temporibus voluptas.</p>
+									<ul class="teammate__social">
+										<li class="teammate__social-item"><a href="" class="teammate__social-link twitter"></a></li>
+										<li class="teammate__social-item"><a href="" class="teammate__social-link facebook"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-lg-1">
+					<a href="">
+						<img src="assets/image/logo-white.png" alt="Logo Image">
+					</a>
+				</div>
+				<div class="col-md-4 col-lg-7">
+					<nav class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__list-item"><a href="" class="footer__list-link">Our team</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Contact us</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Support</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Blog</a></li>
+						</ul>
+
+						<ul class="footer__list">
+							<li class="footer__list-item"><a href="" class="footer__list-link">Exclusive offers</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Licencing</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Privacy Policy</a></li>
+							<li class="footer__list-item"><a href="" class="footer__list-link">Refund Policy</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<p class="join-us">Join our newsletter</p>
+					<p class="dop-info">Get notified about new products, updates and special offers.</p>
+					<form action="" class="footer__form">
+						<input type="email" class="footer__form-input" placeholder="Enter your email">
+						<button type="submit" class="footer__form-submit"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/main.js"></script>
 	
 </body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "frostbite",
+  "version": "1.0.0",
+  "description": "Test question",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F0oocuS/frostbite.git"
+  },
+  "author": "Ihor Yaremko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F0oocuS/frostbite/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
